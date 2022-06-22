@@ -1,0 +1,75 @@
+@import "/styles/variables.scss";
+
+.Container {
+  background-color: white;
+  padding-left: 30px;
+
+  .firstContainer {
+    display: flex;
+
+    .partOne {
+      h2 {
+        padding-left: 14px;
+        color: $grayblack;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 36px;
+        font-family: "Konexy";
+      }
+
+      .imgs {
+        display: flex;
+        .wrapperimg {
+          height: 32px;
+          width: 32px;
+          margin-left: 20px;
+          position: relative;
+        }
+      }
+    }
+    .partTwo {
+      padding-left: 40%;
+      // display: flex;
+      .heads {
+        display: flex;
+        // ul {
+        //   list-style-type: none;
+        ul {
+          list-style-type: none;
+        }
+        .col {
+          padding-left: 90px;
+          h2 {
+            margin-bottom: 13px;
+            margin-top: 2px;
+            margin-bottom: 10px;
+            font-family: "Jura";
+
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+          }
+
+          li a {
+            font-family: "Jura";
+
+            color: #afafaf;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+  .card {
+    display: flex;
+    h2 {
+      padding-left: 20px;
+      font-size: 15px;
+    }
+  }
+}
