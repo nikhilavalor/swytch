@@ -8,10 +8,8 @@ const Home: NextPage = () => {
   return (
     <Layout className="page-home">
       <Head>
-        <title>{AppConstant.meta.title}</title>
         <meta name="descraiption" content={AppConstant.meta.description} />
       </Head>
-      <Header />
 
       <Footer />
     </Layout>

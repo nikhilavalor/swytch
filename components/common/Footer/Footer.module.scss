@@ -15,15 +15,15 @@
         font-weight: 400;
         font-size: 31px;
         line-height: 36px;
-        font-family: "Konexy";
+        font-family: KonexyPersonalUse;
       }
 
       .imgs {
         display: flex;
         .wrapperimg {
-          height: 32px;
-          width: 32px;
-          margin-left: 20px;
+          height: 30px;
+          width: 30px;
+          margin-left: 25px;
           position: relative;
         }
       }
@@ -65,11 +65,34 @@
       }
     }
   }
-  .card {
+
+  .bottomsheet {
     display: flex;
+    justify-content: space-between;
+    .card {
+      display: flex;
+
+      h2 {
+        color: black;
+        margin-left: 5px;
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        margin-right: 68px;
+      }
+    }
+
     h2 {
-      padding-left: 20px;
+      color: $gray;
+      margin-right: 158px;
+      font-family: "Jura";
+      font-style: normal;
+      font-weight: 700;
       font-size: 15px;
+      line-height: 18px;
     }
   }
 }
