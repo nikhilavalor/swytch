@@ -1,0 +1,28 @@
+@import "/styles/variables.scss";
+
+.container {
+  .productSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider{
+    height: 100%;
+    width: 50%;
+  }
+
+  .imageWrapper{
+    
+    &:hover {
+      
+      transform: scale(1.5);
+    }
+  }
+
+  .products{
+    p{
+      color:black;
+    }
+  }
+}
