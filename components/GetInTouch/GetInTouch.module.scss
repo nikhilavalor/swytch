@@ -1,0 +1,76 @@
+@import "/styles/variables.scss";
+
+.container {
+  margin-top: 100px;
+
+  height: 500px;
+
+  .topContainer {
+    // padding: 0 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 294px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    .imgWrap {
+      margin-top: -140px;
+      position: relative;
+      height: 550px;
+      width: 500px;
+    }
+  }
+
+  .con {
+    // margin-left:1000px ;
+    // display: flex;
+    // flex-direction: column;
+    justify-content: start;
+    align-items: end;
+
+    .text {
+      margin-top: 30px;
+      margin-right: 79px;
+      h1 {
+        font-family: KonexyPersonalUse;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        color: $primary;
+      }
+
+      h2 {
+        margin-top: -10px;
+        text-align: end;
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: right;
+        color: $gray;
+      }
+
+      .btn {
+        display: flex;
+        justify-content: end;
+        button {
+          // justify-content:;
+          height: 46px;
+          width: 178px;
+          color: white;
+          background-color: $primary;
+          border-radius: 7px;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 18px;
+          font-family: KonexyPersonalUse;
+
+          // text-align: right;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@import "/styles/variables.scss";
+
+.mainContainer {
+  height: 600px;
+  .partner {
+    display: flex;
+    justify-content: start;
+
+    .part1 {
+      padding-left: 100px;
+      h1 {
+        padding-left: 10px;
+        color: $primary;
+        font-family: KonexyPersonalUse;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: start;
+      }
+      h2 {
+        padding-left: 10px;
+        color: #a0a0a0;
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        text-align: start;
+        line-height: 33px;
+      }
+    }
+
+    .part2 {
+      background-color: white;
+      height: 200px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+
+      .Wrapper {
+        border: solid red 1px;
+        // padding-left: 100px;
+        width: 90%;
+        height: 80px;
+      }
+    }
+  }
+}

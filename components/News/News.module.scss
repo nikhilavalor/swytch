@@ -1,0 +1,112 @@
+@import "/styles/variables.scss";
+
+.mainContainer {
+  .upperContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      font-family: KonexyPersonalUse;
+      color: $primary;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 70px;
+      text-align: center;
+    }
+
+    .content {
+      h2 {
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+      }
+    }
+  }
+
+  .card {
+    padding: 15vw;
+
+    justify-content: space-evenly;
+    align-items: center;
+    // flex-direction: column;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    .cards {
+      padding-top: 20px;
+      padding-left: 17px;
+      height: 350px;
+      width: 262px;
+      background: linear-gradient(
+        180deg,
+        #e1e1e1 0%,
+        rgba(225, 225, 225, 0) 100%
+      );
+
+      .imgWrap {
+        border-radius: 10px;
+        padding-top: 50px;
+        // margin-top: 20px;
+        padding-left: 17px;
+        padding-top: 13px;
+        // padding-right: 17px;
+        height: 169px;
+        position: relative;
+        width: 228px;
+      }
+      .daysCount {
+        position: relative;
+        top: -42px;
+        // left: 10px;
+        background-color: black;
+        background: #000000;
+        width: 123px;
+        border-radius: 0px 10px 0px 0px;
+        height: 36px;
+        h2 {
+          font-family: "Jura";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+          padding-top: 10px;
+        }
+      }
+
+      h1 {
+        margin-top: 15px;
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      h2 {
+        margin-top: 6px;
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #a0a0a0;
+      }
+
+      h3 {
+        margin-top: 15px;
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: $primary;
+      }
+    }
+  }
+}
